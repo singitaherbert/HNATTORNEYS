@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MALULEKE HN ATTORNEYS</title>
+    <!-- Minimize external CSS -->
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="hero/heroes.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Add preload for font-awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+    <!-- Add more meta tags -->
+    <meta name="description" content="Maluleke HN Attorneys - Get Your Legal Matters Fixed With Ease From The Best In the Game.">
+    <meta name="keywords" content="law firm, legal services, attorneys, legal advice">
+    <meta name="author" content="Maluleke HN Attorneys">
 </head>
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style= "background-color: #151a46;">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #151a46;">
          <div class="container-fluid">
-             <a class="nav-brand" href="index.html">
-                 <img src="img/logo.png" class="logo" />
+             <a class="navbar-brand" href="index.html">
+                 <img src="img/logo.png" class="logo" alt="Company Logo" />
             </a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,7 +53,7 @@
       <div class="px-4 py-5 my-5 text-center">
          <div class="col-lg-6 mx-auto">
             <h1 class="display-5 fw-bold">WELCOME TO MALULEKE HN ATTORNEYS</h1>
-            <p class="lead mb-4">Get Your Legal Matters Fixed With Ease From The Best In the Game. </p>
+            <p class="lead mb-4">Get Your Legal Matters Fixed With Ease From The Best In the Game.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                <button onclick="document.location='services.html'" type="button" class="btn btn-outline-secondary btn-lg px-16">Services</button>
             </div>
@@ -62,7 +66,7 @@
          <div class="row">
             <div class="col-md-4 col-sm-6">
                <div class="footer-logo">
-                  <a class="nav-brand" href="index.html">
+                  <a class="navbar-brand" href="index.html">
                      <img src="img/logo.png" class="logo" alt="Company Logo" />
                   </a>
                </div>
@@ -96,7 +100,7 @@
                         Pretoria, 0001
                      </li>
                      <li><i class="lni lni-phone-set"></i> +27 781 43093</li>
-                     <li><a class="lni lni-envelope" href="mailto:info@malulekehnattorneys.com">info@malulekehnattorneys.com</a></li>
+                     <li><a class="lni lni-envelope" href="mailto:info@malulekehnattorneys.com" rel="noopener">info@malulekehnattorneys.com</a></li>
                   </ul>
                </div>
             </div>
@@ -124,5 +128,6 @@
       <!-- footer bottom -->
    </footer>
    <!-- footer -->
-   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
